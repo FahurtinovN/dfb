@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {% for i in people %}
+        <h1>{{ i.name }} {{ i.surname }}</h1>
+        <p>{{ i.age }}лет</p>
+        <p>Дата рождения {{ i.birthDay}}</p>
+        <hr>
+    {% endfor %}
+</body>
+</html>
